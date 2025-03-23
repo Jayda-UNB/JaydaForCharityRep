@@ -1,0 +1,165 @@
+body {
+  font-family: "Playfair Display", serif;
+  background-color: #f0f2ec;
+  color: #3e4a3d;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #3e4a3d;
+}
+
+.text-section h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: #3e4a3d;
+}
+
+.text-section p {
+  font-size: 1.1rem;
+  color: #3e4a3d;
+}
+
+.btn-primary {
+  background-color: #a8c3a5;
+  border-color: #a8c3a5;
+  color: #3e4a3d;
+}
+
+.btn-primary:hover {
+  background-color: #90a98f;
+  border-color: #90a98f;
+}
+
+footer {
+  background-color: #3e4a3d;
+  color: #fff;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.torn-paper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 85%,
+    95% 88%,
+    90% 85%,
+    85% 90%,
+    80% 85%,
+    75% 90%,
+    70% 85%,
+    65% 90%,
+    60% 85%,
+    55% 90%,
+    50% 85%,
+    45% 90%,
+    40% 85%,
+    35% 90%,
+    30% 85%,
+    25% 90%,
+    20% 85%,
+    15% 90%,
+    10% 85%,
+    5% 90%,
+    0% 85%
+  );
+}
+
+.small-img {
+  max-width: 60%;
+  height: auto;
+}
+
+.cropped-image {
+  width: 100%;
+  height: 375px;
+  object-fit: cover;
+  object-position: 70% 35%;
+}
+
+.text-section {
+  padding: 20px;
+}
+
+.experience-section {
+  margin-top: 20px;
+}
+
+.experience-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.experience-item {
+  flex: 1;
+  width: 300px;
+  font-size: 1.2rem;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  white-space: normal;
+  word-wrap: break-word;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.para-items {
+  font-size: 1.1rem;
+}
+
+.experience-section h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: #3e4a3d;
+  font-size: 2rem;
+}
+
+.experience-grid .experience-item {
+  font-size: 1.1rem;
+}
+.list-items {
+  font-size: 1.1rem;
+  padding-left: 200px
+}
+.carousel-section h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: #3e4a3d;
+}
+
+.carousel-thumb {
+  height: 260px;
+  width: auto;
+  flex: 0 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.carousel-thumb:hover {
+  transform: scale(1.05);
+}
+
+.carousel-inner {
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel-item > .d-flex {
+  width: 100%;
+  justify-content: center;
+}
